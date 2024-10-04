@@ -5,6 +5,11 @@ A CLI tool that has the flexibility of a text prompt to select masks from a give
 - Allows for multiple masks of target class
 - Easy set up, easy usage 
 
+## Examples
+![Screenshot](./example%20images/prompt_lamp.jpg)
+![Screenshot](./example%20images/prompt_laptop.jpg)
+![Screenshot](./example%20images/prompt_table.jpg)
+
 ## The basic idea:
 - SAM2 has incredible performance when provided a point to segment off of.
 - Using that in conjunction with its auto-annotation, almost any notable feature in an image can be segmented satisfactorily.
@@ -20,7 +25,7 @@ A CLI tool that has the flexibility of a text prompt to select masks from a give
 - Then, run the CLI tool by using the following syntax:
     - python run1.py --image ./example.jpg --class "chair" --output ./generated.png
 - Reccomended to run in kaggle VMs for simplicity
-- I would also reccomend checking out the experimenting.ipynb to more easily follow the pipeline.
+- I would also reccomend checking out the experimenting.ipynb to better understand and grasp the pipeline.
 
 
 
